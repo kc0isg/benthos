@@ -641,6 +641,7 @@ s3:
     role: ""
     secret: ""
     token: ""
+  endpoint: ""
   path: ${!count:files}-${!timestamp_unix_nano}.txt
   region: eu-west-1
   timeout_s: 5
@@ -661,6 +662,7 @@ sqs:
     role: ""
     secret: ""
     token: ""
+  endpoint: ""
   region: eu-west-1
   url: ""
 ```
